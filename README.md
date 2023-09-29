@@ -11,7 +11,7 @@ This template provides a logger, as well as set-up and start scripts.
     - Use `venv/scripts/activate` to start using the virtual environment
     - Use `pip` to install the desired dependencies
     - Use `pip freeze > requirements.txt` to export the list of depencencies
-4. Instruct users to use `setup.bat`/`setup.sh` to set up their virtual environment in your `README.md`
+4. (Bash-only) Instruct users to use `setup.sh` to set up their virtual environment in your `README.md`
 5. Instruct users to use `start.bat`/`start.sh` to run the program in your `README.md`
 6. Test run `main.py` using `start.bat`/`start.sh`
 7. Refer to the example in `main.py` to see how to import, instantiate, and use the logger
