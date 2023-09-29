@@ -8,7 +8,7 @@ from logging.handlers import TimedRotatingFileHandler
 LOG_FORMAT = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 FORMATTER = logging.Formatter(LOG_FORMAT)
 LOG_DIR = Path("logs")
-ACTIVE_LOG_NAME = "compiler.log"
+ACTIVE_LOG_NAME = "logger.log"
 
 
 def get_log_path():
